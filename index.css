@@ -1,0 +1,250 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#main{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100vh;
+    box-sizing: border-box;
+    
+    background-color: rgb(82, 24, 136);
+    position: relative;
+}
+
+.container{
+    width: 368px;
+    height: 90px;
+    background-color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;  
+   border-radius: 7px;
+   float: right;
+   margin-top: 55px;
+   margin-right: 20%;
+ 
+
+
+}
+#hours,#min,#sec{
+    font-size: 27px;
+  
+}
+span{
+    font-size: 17px;
+}
+
+.hour,.min,.sec{
+      margin-top: 10px;
+      margin-bottom: 2px;
+    
+    
+}
+.inner1{
+    border-radius: 4px;
+    background-color: rgb(215, 199, 230);
+    color: rgb(151, 28, 151);
+    height: 68px;
+    width: 64px;
+    text-align: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+     font-family:  sans-serif;
+     position: relative;
+}
+
+
+.time{
+    height: 68px;
+    font-family:  sans-serif;
+    width: 64px;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: white;
+    color: rgb(37, 37, 131);
+    margin-top: 10px;
+    text-align: center;
+    line-height: 68px;
+}
+.colon{
+    font-size: 34px;
+      color: rgb(151, 28, 151);
+    position: absolute;
+    left: 63px;
+    top:12px;
+}
+#am{
+     height: 68px;
+    font-family:  sans-serif;
+    width: 64px;
+    box-sizing: border-box;
+    font-size: 21px;
+    background-image:linear-gradient(to bottom, rgb(175, 29, 175), rgb(204, 96, 204) );
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 68px;
+    border-radius: 4px;
+}
+.alarm{
+    width: 465px;
+    height: 263px;
+    background-color: white;
+    box-sizing:border-box;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-left: 120px;
+
+
+}
+.clock1{
+    margin-left: 120px;
+    margin-top: 50px;
+    
+}
+.icon{
+    
+    position: absolute;
+}
+
+label{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
+    color: rgb(83, 15, 83);
+    padding-left: 49px;
+
+    
+
+}
+.wakey{
+    height: 40px;
+    padding-top: 25px;
+    padding-left: 20px;
+    position: relative;    
+}
+.wakey::after{
+    content: "";
+    height: 25px;
+    border:1px rgb(180, 175, 175) solid;
+    position: absolute;
+    left: 35px;
+    top: 60px;
+}
+.lunch{
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-top: 30px;
+    position: relative;
+
+}
+
+.lunch::after{
+    content: "";
+    height: 25px;
+    border:1px rgb(180, 175, 175) solid;
+    position: absolute;
+    left: 35px;
+    top: 60px;
+}
+.napy{
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-top: 30px;
+
+}
+
+.select{
+    width: 228px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 16px;
+}
+
+.select1{
+     width: 228px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 31px;
+}
+
+.select2{
+    width: 228px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 44px;
+    
+
+}
+.midsection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    position: relative;
+}
+.picture{
+    height: 350px;
+    width: 370px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    margin-left:30px;
+    color: rgb(83, 15, 83);
+    position: relative;
+}
+#enjoying{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+
+}
+#fun{
+    position: absolute;
+    top: 35px;
+    left: 20px;
+    color:rgb(131, 37, 131);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 700;
+     font-size: 21px;
+}
+.afternoon{
+    width: 455px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    line-height: 40px;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(129, 80, 177);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    padding-left: 30px;
+    margin-left:120px ;
+
+}
+button{
+     border: 1px outset rgb(196, 53, 196);
+     cursor: pointer;
+    
+
+}
+.party{
+     width: 255px;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    line-height: 35px;
+    font-size: 21px;
+    color: white;
+    position: absolute;
+    background-image: linear-gradient(to right,rgb(175, 29, 175), rgb(214, 114, 214));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 25px;
+    padding-left: 20px;
+    left:120px ;
+}
