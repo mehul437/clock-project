@@ -46,6 +46,12 @@ function timer(){
             let quoti = document.getElementById("fun")
             quoti.innerText = "GOOD NIGHT !!!"
             break;
+        default:
+            let e=document.getElementById("enjoying");
+            e.src="fimages.png"
+            let qu = document.getElementById("fun")
+            qu.innerText = ""
+            break;
        
     }
     
